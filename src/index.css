@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Style of Video Player */
+
+.video_container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: #282c34;
+}
+.video_player{
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.player_border{
+  width: 80%;
+  height: 80%;
+  border: 1px solid white;
+  position: relative;
+}
+.react_player{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.forward_btn{
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  outline: none;
+  right: 0;
+  top: 0;
+  padding: .8rem;
+}
+
+.video_list{
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  align-items: center;
+  justify-content: center;
+}
+.video_select_btn{
+  width: 50%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+/* End of Video Player Style  */
+
+/* Google Map Style  */
+.map_container{
+  width: 100%;
+  height: 100vh;
+}
+
+/* End of Google map Style  */
